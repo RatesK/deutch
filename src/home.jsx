@@ -9,46 +9,60 @@ function HomePage() {
       
       <div className="grid grid-cols-2 gap-6">
         <Link to="/1">
-          <button className="bg-amber-400 text-black px-6 py-3 rounded-xl text-xl transition hover:bg-amber-500">
-            Learning 1 (Nouns)
+          <button className="bg-blue-400 text-black px-6 py-3 rounded-xl text-xl transition hover:bg-amber-500">
+            #1-Pronouns
           </button>
         </Link>
         <Link to="/2">
           <button className="bg-amber-400 text-black px-6 py-3 rounded-xl text-xl transition hover:bg-amber-500">
-            Learning 2 (Nouns)
+            #2-Nouns
           </button>
         </Link>
         <Link to="/3">
           <button className="bg-amber-400 text-black px-6 py-3 rounded-xl text-xl transition hover:bg-amber-500">
-            Learning 3 (Nouns)
+            #3-Nouns
           </button>
         </Link>
         <Link to="/4">
           <button className="bg-amber-400 text-black px-6 py-3 rounded-xl text-xl transition hover:bg-amber-500">
-            Learning 4 (Nouns)
+            #4-Nouns
           </button>
         </Link>
         <Link to="/5">
           <button className="bg-amber-400 text-black px-6 py-3 rounded-xl text-xl transition hover:bg-amber-500">
-            Learning 5 (Nouns)
+            #5-Nouns
           </button>
         </Link>
         <Link to="/6">
-          <button className="bg-blue-400 text-black px-6 py-3 rounded-xl text-xl transition hover:bg-amber-500">
-            Learning 6 (Pronouns)
-          </button>
-        </Link>
-        <Link to="/7">
-          <button className="bg-green-400 text-black px-6 py-3 rounded-xl text-xl transition hover:bg-amber-500">
-            Learning 7 (Verbs)
+          <button className="bg-purple-400 text-black px-6 py-3 rounded-xl text-xl transition hover:bg-amber-500">
+            #6-Grammar
           </button>
         </Link>
         <Link to="/7">
           <button className="bg-purple-400 text-black px-6 py-3 rounded-xl text-xl transition hover:bg-amber-500">
-            Learning 7 (Final)
+            #7-Grammar
           </button>
         </Link>
-        
+        <Link to="/8">
+          <button className="bg-purple-400 text-black px-6 py-3 rounded-xl text-xl transition hover:bg-amber-500">
+            #8-Grammar
+          </button>
+        </Link>
+        <Link to="/9">
+          <button className="bg-purple-400 text-black px-6 py-3 rounded-xl text-xl transition hover:bg-amber-500">
+            #9-Grammar
+          </button>
+        </Link>
+        <Link to="/10">
+          <button className="bg-amber-400 text-black px-6 py-3 rounded-xl text-xl transition hover:bg-amber-500">
+            #10-Substantive
+          </button>
+        </Link>
+        <Link to="/11">
+          <button className="bg-amber-400 text-black px-6 py-3 rounded-xl text-xl transition hover:bg-amber-500">
+            #11-Substantive
+          </button>
+        </Link>
       </div>
       <p className="text-xl text-gray-700 mb-6 mt-8">Section 2:</p>
       

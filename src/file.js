@@ -1,868 +1,1069 @@
+
 export const allQuestions1 = [
-  {
-      "questionText": "What is 'man' in German?",
-      "answerOptions": [
-          { "answerText": "Der Mann", "isCorrect": true },
-          { "answerText": "Die Frau", "isCorrect": false },
-          { "answerText": "Das Kind", "isCorrect": false },
-          { "answerText": "Die Familie", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'woman' in German?",
-      "answerOptions": [
-          { "answerText": "Die Frau", "isCorrect": true },
-          { "answerText": "Der Mann", "isCorrect": false },
-          { "answerText": "Das Kind", "isCorrect": false },
-          { "answerText": "Die Familie", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'child' in German?",
-      "answerOptions": [
-          { "answerText": "Das Kind", "isCorrect": true },
-          { "answerText": "Der Mann", "isCorrect": false },
-          { "answerText": "Die Frau", "isCorrect": false },
-          { "answerText": "Die Familie", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'family' in German?",
-      "answerOptions": [
-          { "answerText": "Die Familie", "isCorrect": true },
-          { "answerText": "Der Mann", "isCorrect": false },
-          { "answerText": "Die Frau", "isCorrect": false },
-          { "answerText": "Das Kind", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'father' in German?",
-      "answerOptions": [
-          { "answerText": "Der Vater", "isCorrect": true },
-          { "answerText": "Die Mutter", "isCorrect": false },
-          { "answerText": "Das Kind", "isCorrect": false },
-          { "answerText": "Die Familie", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'mother' in German?",
-      "answerOptions": [
-          { "answerText": "Die Mutter", "isCorrect": true },
-          { "answerText": "Der Vater", "isCorrect": false },
-          { "answerText": "Das Kind", "isCorrect": false },
-          { "answerText": "Die Familie", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'friend (male)' in German?",
-      "answerOptions": [
-          { "answerText": "Der Freund", "isCorrect": true },
-          { "answerText": "Die Freundin", "isCorrect": false },
-          { "answerText": "Das Kind", "isCorrect": false },
-          { "answerText": "Die Familie", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'friend (female)' in German?",
-      "answerOptions": [
-          { "answerText": "Die Freundin", "isCorrect": true },
-          { "answerText": "Der Freund", "isCorrect": false },
-          { "answerText": "Das Kind", "isCorrect": false },
-          { "answerText": "Die Familie", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'house' in German?",
-      "answerOptions": [
-          { "answerText": "Das Haus", "isCorrect": true },
-          { "answerText": "Die Tür", "isCorrect": false },
-          { "answerText": "Das Fenster", "isCorrect": false },
-          { "answerText": "Die Straße", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'door' in German?",
-      "answerOptions": [
-          { "answerText": "Die Tür", "isCorrect": true },
-          { "answerText": "Das Haus", "isCorrect": false },
-          { "answerText": "Das Fenster", "isCorrect": false },
-          { "answerText": "Die Straße", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'window' in German?",
-      "answerOptions": [
-          { "answerText": "Das Fenster", "isCorrect": true },
-          { "answerText": "Das Haus", "isCorrect": false },
-          { "answerText": "Die Tür", "isCorrect": false },
-          { "answerText": "Die Straße", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'table' in German?",
-      "answerOptions": [
-          { "answerText": "Der Tisch", "isCorrect": true },
-          { "answerText": "Der Stuhl", "isCorrect": false },
-          { "answerText": "Das Essen", "isCorrect": false },
-          { "answerText": "Das Wasser", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'chair' in German?",
-      "answerOptions": [
-          { "answerText": "Der Stuhl", "isCorrect": true },
-          { "answerText": "Der Tisch", "isCorrect": false },
-          { "answerText": "Das Essen", "isCorrect": false },
-          { "answerText": "Das Wasser", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'food' in German?",
-      "answerOptions": [
-          { "answerText": "Das Essen", "isCorrect": true },
-          { "answerText": "Der Tisch", "isCorrect": false },
-          { "answerText": "Der Stuhl", "isCorrect": false },
-          { "answerText": "Das Wasser", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'water' in German?",
-      "answerOptions": [
-          { "answerText": "Das Wasser", "isCorrect": true },
-          { "answerText": "Der Tisch", "isCorrect": false },
-          { "answerText": "Der Stuhl", "isCorrect": false },
-          { "answerText": "Das Essen", "isCorrect": false }
-      ]
-  }
-];
-export const allQuestions2 = [
-  {
-      "questionText": "What is 'car' in German?",
-      "answerOptions": [
-          { "answerText": "Das Auto", "isCorrect": true },
-          { "answerText": "Das Fahrrad", "isCorrect": false },
-          { "answerText": "Der Bus", "isCorrect": false },
-          { "answerText": "Der Zug", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'bicycle' in German?",
-      "answerOptions": [
-          { "answerText": "Das Fahrrad", "isCorrect": true },
-          { "answerText": "Das Auto", "isCorrect": false },
-          { "answerText": "Der Bus", "isCorrect": false },
-          { "answerText": "Der Zug", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'bus' in German?",
-      "answerOptions": [
-          { "answerText": "Der Bus", "isCorrect": true },
-          { "answerText": "Das Auto", "isCorrect": false },
-          { "answerText": "Das Fahrrad", "isCorrect": false },
-          { "answerText": "Der Zug", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'train' in German?",
-      "answerOptions": [
-          { "answerText": "Der Zug", "isCorrect": true },
-          { "answerText": "Der Bus", "isCorrect": false },
-          { "answerText": "Das Fahrrad", "isCorrect": false },
-          { "answerText": "Das Auto", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'street' in German?",
-      "answerOptions": [
-          { "answerText": "Die Straße", "isCorrect": true },
-          { "answerText": "Der Weg", "isCorrect": false },
-          { "answerText": "Das Haus", "isCorrect": false },
-          { "answerText": "Die Stadt", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'city' in German?",
-      "answerOptions": [
-          { "answerText": "Die Stadt", "isCorrect": true },
-          { "answerText": "Das Land", "isCorrect": false },
-          { "answerText": "Der Fluss", "isCorrect": false },
-          { "answerText": "Die Straße", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'country' (nation) in German?",
-      "answerOptions": [
-          { "answerText": "Das Land", "isCorrect": true },
-          { "answerText": "Die Stadt", "isCorrect": false },
-          { "answerText": "Der Fluss", "isCorrect": false },
-          { "answerText": "Die Straße", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'river' in German?",
-      "answerOptions": [
-          { "answerText": "Der Fluss", "isCorrect": true },
-          { "answerText": "Das Meer", "isCorrect": false },
-          { "answerText": "Der See", "isCorrect": false },
-          { "answerText": "Die Brücke", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'sea' in German?",
-      "answerOptions": [
-          { "answerText": "Das Meer", "isCorrect": true },
-          { "answerText": "Der Fluss", "isCorrect": false },
-          { "answerText": "Der See", "isCorrect": false },
-          { "answerText": "Die Brücke", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'lake' in German?",
-      "answerOptions": [
-          { "answerText": "Der See", "isCorrect": true },
-          { "answerText": "Das Meer", "isCorrect": false },
-          { "answerText": "Der Fluss", "isCorrect": false },
-          { "answerText": "Die Brücke", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'bridge' in German?",
-      "answerOptions": [
-          { "answerText": "Die Brücke", "isCorrect": true },
-          { "answerText": "Der Fluss", "isCorrect": false },
-          { "answerText": "Das Meer", "isCorrect": false },
-          { "answerText": "Der See", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'mountain' in German?",
-      "answerOptions": [
-          { "answerText": "Der Berg", "isCorrect": true },
-          { "answerText": "Das Tal", "isCorrect": false },
-          { "answerText": "Der Himmel", "isCorrect": false },
-          { "answerText": "Die Wiese", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'valley' in German?",
-      "answerOptions": [
-          { "answerText": "Das Tal", "isCorrect": true },
-          { "answerText": "Der Berg", "isCorrect": false },
-          { "answerText": "Der Himmel", "isCorrect": false },
-          { "answerText": "Die Wiese", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'sky' in German?",
-      "answerOptions": [
-          { "answerText": "Der Himmel", "isCorrect": true },
-          { "answerText": "Die Wolke", "isCorrect": false },
-          { "answerText": "Die Sonne", "isCorrect": false },
-          { "answerText": "Der Mond", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'cloud' in German?",
-      "answerOptions": [
-          { "answerText": "Die Wolke", "isCorrect": true },
-          { "answerText": "Der Himmel", "isCorrect": false },
-          { "answerText": "Die Sonne", "isCorrect": false },
-          { "answerText": "Der Mond", "isCorrect": false }
-      ]
-  }
-];
-export const allQuestions3 = [
-  {
-      "questionText": "What is 'sun' in German?",
-      "answerOptions": [
-          { "answerText": "Die Sonne", "isCorrect": true },
-          { "answerText": "Der Mond", "isCorrect": false },
-          { "answerText": "Der Stern", "isCorrect": false },
-          { "answerText": "Der Himmel", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'moon' in German?",
-      "answerOptions": [
-          { "answerText": "Der Mond", "isCorrect": true },
-          { "answerText": "Die Sonne", "isCorrect": false },
-          { "answerText": "Der Stern", "isCorrect": false },
-          { "answerText": "Der Himmel", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'star' in German?",
-      "answerOptions": [
-          { "answerText": "Der Stern", "isCorrect": true },
-          { "answerText": "Der Mond", "isCorrect": false },
-          { "answerText": "Die Wolke", "isCorrect": false },
-          { "answerText": "Die Sonne", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'rain' in German?",
-      "answerOptions": [
-          { "answerText": "Der Regen", "isCorrect": true },
-          { "answerText": "Der Schnee", "isCorrect": false },
-          { "answerText": "Die Wolke", "isCorrect": false },
-          { "answerText": "Der Sturm", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'snow' in German?",
-      "answerOptions": [
-          { "answerText": "Der Schnee", "isCorrect": true },
-          { "answerText": "Der Regen", "isCorrect": false },
-          { "answerText": "Die Wolke", "isCorrect": false },
-          { "answerText": "Der Sturm", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'storm' in German?",
-      "answerOptions": [
-          { "answerText": "Der Sturm", "isCorrect": true },
-          { "answerText": "Der Regen", "isCorrect": false },
-          { "answerText": "Die Wolke", "isCorrect": false },
-          { "answerText": "Der Schnee", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'thunder' in German?",
-      "answerOptions": [
-          { "answerText": "Der Donner", "isCorrect": true },
-          { "answerText": "Der Blitz", "isCorrect": false },
-          { "answerText": "Der Sturm", "isCorrect": false },
-          { "answerText": "Die Wolke", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'lightning' in German?",
-      "answerOptions": [
-          { "answerText": "Der Blitz", "isCorrect": true },
-          { "answerText": "Der Donner", "isCorrect": false },
-          { "answerText": "Der Regen", "isCorrect": false },
-          { "answerText": "Der Sturm", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'wind' in German?",
-      "answerOptions": [
-          { "answerText": "Der Wind", "isCorrect": true },
-          { "answerText": "Der Regen", "isCorrect": false },
-          { "answerText": "Der Schnee", "isCorrect": false },
-          { "answerText": "Der Sturm", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'fog' in German?",
-      "answerOptions": [
-          { "answerText": "Der Nebel", "isCorrect": true },
-          { "answerText": "Die Wolke", "isCorrect": false },
-          { "answerText": "Der Regen", "isCorrect": false },
-          { "answerText": "Der Sturm", "isCorrect": false }
-      ]
-  }
-];
-export const allQuestions4 = [
-  {
-      "questionText": "What is 'apple' in German?",
-      "answerOptions": [
-          { "answerText": "Der Apfel", "isCorrect": true },
-          { "answerText": "Die Birne", "isCorrect": false },
-          { "answerText": "Die Banane", "isCorrect": false },
-          { "answerText": "Die Traube", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'banana' in German?",
-      "answerOptions": [
-          { "answerText": "Die Banane", "isCorrect": true },
-          { "answerText": "Der Apfel", "isCorrect": false },
-          { "answerText": "Die Birne", "isCorrect": false },
-          { "answerText": "Die Traube", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'pear' in German?",
-      "answerOptions": [
-          { "answerText": "Die Birne", "isCorrect": true },
-          { "answerText": "Der Apfel", "isCorrect": false },
-          { "answerText": "Die Banane", "isCorrect": false },
-          { "answerText": "Die Traube", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'grape' in German?",
-      "answerOptions": [
-          { "answerText": "Die Traube", "isCorrect": true },
-          { "answerText": "Der Apfel", "isCorrect": false },
-          { "answerText": "Die Birne", "isCorrect": false },
-          { "answerText": "Die Banane", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'strawberry' in German?",
-      "answerOptions": [
-          { "answerText": "Die Erdbeere", "isCorrect": true },
-          { "answerText": "Die Kirsche", "isCorrect": false },
-          { "answerText": "Die Himbeere", "isCorrect": false },
-          { "answerText": "Die Blaubeere", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'cherry' in German?",
-      "answerOptions": [
-          { "answerText": "Die Kirsche", "isCorrect": true },
-          { "answerText": "Die Erdbeere", "isCorrect": false },
-          { "answerText": "Die Himbeere", "isCorrect": false },
-          { "answerText": "Die Blaubeere", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'raspberry' in German?",
-      "answerOptions": [
-          { "answerText": "Die Himbeere", "isCorrect": true },
-          { "answerText": "Die Kirsche", "isCorrect": false },
-          { "answerText": "Die Erdbeere", "isCorrect": false },
-          { "answerText": "Die Blaubeere", "isCorrect": false }
-      ]
-  }
-];
-export const allQuestions5 = [
-  {
-      "questionText": "What is 'dog' in German?",
-      "answerOptions": [
-          { "answerText": "Der Hund", "isCorrect": true },
-          { "answerText": "Die Katze", "isCorrect": false },
-          { "answerText": "Das Pferd", "isCorrect": false },
-          { "answerText": "Der Vogel", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'cat' in German?",
-      "answerOptions": [
-          { "answerText": "Die Katze", "isCorrect": true },
-          { "answerText": "Der Hund", "isCorrect": false },
-          { "answerText": "Das Pferd", "isCorrect": false },
-          { "answerText": "Der Fisch", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'horse' in German?",
-      "answerOptions": [
-          { "answerText": "Das Pferd", "isCorrect": true },
-          { "answerText": "Der Hund", "isCorrect": false },
-          { "answerText": "Die Kuh", "isCorrect": false },
-          { "answerText": "Der Vogel", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'bird' in German?",
-      "answerOptions": [
-          { "answerText": "Der Vogel", "isCorrect": true },
-          { "answerText": "Der Fisch", "isCorrect": false },
-          { "answerText": "Die Maus", "isCorrect": false },
-          { "answerText": "Das Pferd", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'fish' in German?",
-      "answerOptions": [
-          { "answerText": "Der Fisch", "isCorrect": true },
-          { "answerText": "Der Vogel", "isCorrect": false },
-          { "answerText": "Der Hund", "isCorrect": false },
-          { "answerText": "Die Katze", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'cow' in German?",
-      "answerOptions": [
-          { "answerText": "Die Kuh", "isCorrect": true },
-          { "answerText": "Das Schwein", "isCorrect": false },
-          { "answerText": "Das Schaf", "isCorrect": false },
-          { "answerText": "Die Ziege", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'pig' in German?",
-      "answerOptions": [
-          { "answerText": "Das Schwein", "isCorrect": true },
-          { "answerText": "Die Kuh", "isCorrect": false },
-          { "answerText": "Das Schaf", "isCorrect": false },
-          { "answerText": "Die Ziege", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'sheep' in German?",
-      "answerOptions": [
-          { "answerText": "Das Schaf", "isCorrect": true },
-          { "answerText": "Das Schwein", "isCorrect": false },
-          { "answerText": "Die Kuh", "isCorrect": false },
-          { "answerText": "Die Ziege", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'goat' in German?",
-      "answerOptions": [
-          { "answerText": "Die Ziege", "isCorrect": true },
-          { "answerText": "Das Schaf", "isCorrect": false },
-          { "answerText": "Das Schwein", "isCorrect": false },
-          { "answerText": "Die Kuh", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'mouse' in German?",
-      "answerOptions": [
-          { "answerText": "Die Maus", "isCorrect": true },
-          { "answerText": "Die Ratte", "isCorrect": false },
-          { "answerText": "Der Hase", "isCorrect": false },
-          { "answerText": "Das Pferd", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'rabbit' in German?",
-      "answerOptions": [
-          { "answerText": "Der Hase", "isCorrect": true },
-          { "answerText": "Die Maus", "isCorrect": false },
-          { "answerText": "Die Ratte", "isCorrect": false },
-          { "answerText": "Der Hund", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'turtle' in German?",
-      "answerOptions": [
-          { "answerText": "Die Schildkröte", "isCorrect": true },
-          { "answerText": "Der Frosch", "isCorrect": false },
-          { "answerText": "Die Schlange", "isCorrect": false },
-          { "answerText": "Der Vogel", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'frog' in German?",
-      "answerOptions": [
-          { "answerText": "Der Frosch", "isCorrect": true },
-          { "answerText": "Die Schlange", "isCorrect": false },
-          { "answerText": "Die Schildkröte", "isCorrect": false },
-          { "answerText": "Der Hund", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'snake' in German?",
-      "answerOptions": [
-          { "answerText": "Die Schlange", "isCorrect": true },
-          { "answerText": "Der Frosch", "isCorrect": false },
-          { "answerText": "Die Schildkröte", "isCorrect": false },
-          { "answerText": "Der Vogel", "isCorrect": false }
-      ]
-  },
-  {
-      "questionText": "What is 'duck' in German?",
-      "answerOptions": [
-          { "answerText": "Die Ente", "isCorrect": true },
-          { "answerText": "Die Gans", "isCorrect": false },
-          { "answerText": "Der Schwan", "isCorrect": false },
-          { "answerText": "Der Vogel", "isCorrect": false }
-      ]
-  }
-];
-
-export const allQuestions6 = [
-  {
-      "questionText": "What is 'I' in German?",
-      "answerOptions": [
-          { "answerText": "Ich", "isCorrect": true },
-          { "answerText": "Du", "isCorrect": false },
-          { "answerText": "Wir", "isCorrect": false },
-          { "answerText": "Es", "isCorrect": false }
-      ]
-  },
-  {
-    "questionText": "What is 'You' in German?",
-    "type": "multiple-choice",
-    "answerOptions": [
-        { "answerText": "Du", "isCorrect": true },
-        { "answerText": "Ich", "isCorrect": false },
-        { "answerText": "Wir", "isCorrect": false },
-        { "answerText": "Es", "isCorrect": false }
-    ]
-},
-{
-  "questionText": "What is 'We' in German?",
-  "type": "multiple-choice",
-  "answerOptions": [
-      { "answerText": "Wir", "isCorrect": true },
-      { "answerText": "Du", "isCorrect": false },
-      { "answerText": "Ich", "isCorrect": false },
-      { "answerText": "Es", "isCorrect": false }
-  ]
-},
-{
-  "questionText": "What is 'It' in German?",
-  "type": "multiple-choice",
-  "answerOptions": [
-      { "answerText": "Es", "isCorrect": true },
-      { "answerText": "Du", "isCorrect": false },
-      { "answerText": "Ihr", "isCorrect": false },
-      { "answerText": "sie", "isCorrect": false }
-  ]
-},
-{
-  "questionText": "What is 'She' in German?",
-  "type": "multiple-choice",
-  "answerOptions": [
-      { "answerText": "Sie", "isCorrect": true },
-      { "answerText": "Ich", "isCorrect": false },
-      { "answerText": "Du", "isCorrect": false },
-      { "answerText": "sie", "isCorrect": false }
-  ]
-},
-{
-  "questionText": "What is 'He' in German?",
-  "type": "multiple-choice",
-  "answerOptions": [
-      { "answerText": "Er", "isCorrect": true },
-      { "answerText": "Du", "isCorrect": false },
-      { "answerText": "Wir", "isCorrect": false },
-      { "answerText": "Sie", "isCorrect": false }
-  ]
-},
-{
-  "questionText": "What is 'You all' in German?",
-  "type": "multiple-choice",
-  "answerOptions": [
-    { "answerText": "Ihr", "isCorrect": true },
-      { "answerText": "Es", "isCorrect": false },
-      { "answerText": "Wir", "isCorrect": false },
-      { "answerText": "sie", "isCorrect": false }
-  ]
-},
-{
-  "questionText": "What is 'They/You Formal' in German?",
-  "type": "multiple-choice",
-  "answerOptions": [
-    { "answerText": "Sie", "isCorrect": true },
-      { "answerText": "Es", "isCorrect": false },
-      { "answerText": "Wir", "isCorrect": false },
-      { "answerText": "Du", "isCorrect": false },
-  ]
-},
-];
-export const allQuestions7 = [
-  {
-    questionText: "What is 'to eat' in German?",
-    type: "multiple-choice",
-    answerOptions: [
-      { answerText: "essen", isCorrect: true },
-      { answerText: "trinken", isCorrect: false },
-      { answerText: "laufen", isCorrect: false },
-      { answerText: "schlafen", isCorrect: false },
-    ],
-  },
-  {
-      questionText: "What is 'to drink' in German?",
-      type: "multiple-choice",
-      answerOptions: [
-        { answerText: "essen", isCorrect: false },
-        { answerText: "trinken", isCorrect: true },
-        { answerText: "laufen", isCorrect: false },
-        { answerText: "sehen", isCorrect: false },
-      ],
+    {
+        "questionText": "Was ist 'ich' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "I", "isCorrect": true },
+            { "answerText": "you", "isCorrect": false },
+            { "answerText": "he", "isCorrect": false },
+            { "answerText": "we", "isCorrect": false }
+        ]
     },
     {
-      questionText: "What is 'to sleep' in German?",
-      type: "multiple-choice",
-      answerOptions: [
-        { answerText: "schlafen", isCorrect: true },
-        { answerText: "essen", isCorrect: false },
-        { answerText: "fahren", isCorrect: false },
-        { answerText: "arbeiten", isCorrect: false },
-      ],
+        "questionText": "Was ist 'du' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "you (singular, informal)", "isCorrect": true },
+            { "answerText": "he", "isCorrect": false },
+            { "answerText": "she", "isCorrect": false },
+            { "answerText": "they", "isCorrect": false }
+        ]
     },
     {
-      questionText: "What is 'to run' in German?",
-      type: "multiple-choice",
-      answerOptions: [
-        { answerText: "laufen", isCorrect: true },
-        { answerText: "sehen", isCorrect: false },
-        { answerText: "lesen", isCorrect: false },
-        { answerText: "arbeiten", isCorrect: false },
-      ],
+        "questionText": "Was ist 'er' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "he", "isCorrect": true },
+            { "answerText": "she", "isCorrect": false },
+            { "answerText": "it", "isCorrect": false },
+            { "answerText": "I", "isCorrect": false }
+        ]
     },
     {
-      questionText: "What is 'to eat' in German?",
-      type: "multiple-choice",
-      answerOptions: [
-        { answerText: "essen", isCorrect: true },
-        { answerText: "trinken", isCorrect: false },
-        { answerText: "laufen", isCorrect: false },
-        { answerText: "schlafen", isCorrect: false },
-      ],
+        "questionText": "Was ist 'sie' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "she", "isCorrect": true },
+            { "answerText": "he", "isCorrect": false },
+            { "answerText": "it", "isCorrect": false },
+            { "answerText": "you", "isCorrect": false }
+        ]
     },
     {
-        questionText: "What is 'to drink' in German?",
-        type: "multiple-choice",
-        answerOptions: [
-          { answerText: "essen", isCorrect: false },
-          { answerText: "trinken", isCorrect: true },
-          { answerText: "laufen", isCorrect: false },
-          { answerText: "sehen", isCorrect: false },
-        ],
-      },
-      {
-        questionText: "What is 'to sleep' in German?",
-        type: "multiple-choice",
-        answerOptions: [
-          { answerText: "schlafen", isCorrect: true },
-          { answerText: "essen", isCorrect: false },
-          { answerText: "fahren", isCorrect: false },
-          { answerText: "arbeiten", isCorrect: false },
-        ],
-      },
-      {
-        questionText: "What is 'to run' in German?",
-        type: "multiple-choice",
-        answerOptions: [
-          { answerText: "laufen", isCorrect: true },
-          { answerText: "sehen", isCorrect: false },
-          { answerText: "lesen", isCorrect: false },
-          { answerText: "arbeiten", isCorrect: false },
-        ],
-      },
-      {
-        questionText: "What is 'to speak' in German?",
-        type: "multiple-choice",
-        answerOptions: [
-          { answerText: "sprechen", isCorrect: true },
-          { answerText: "sehen", isCorrect: false },
-          { answerText: "hören", isCorrect: false },
-          { answerText: "lesen", isCorrect: false },
-        ],
-      },
-      {
-          questionText: "What is 'to read' in German?",
-          type: "multiple-choice",
-          answerOptions: [
-            { answerText: "lesen", isCorrect: true },
-            { answerText: "schreiben", isCorrect: false },
-            { answerText: "sprechen", isCorrect: false },
-            { answerText: "essen", isCorrect: false },
-          ],
-        },
-        {
-          questionText: "What is 'to write' in German?",
-          type: "multiple-choice",
-          answerOptions: [
-            { answerText: "schreiben", isCorrect: true },
-            { answerText: "sehen", isCorrect: false },
-            { answerText: "laufen", isCorrect: false },
-            { answerText: "schlafen", isCorrect: false },
-          ],
-        },
-        {
-          questionText: "What is 'to listen' in German?",
-          type: "multiple-choice",
-          answerOptions: [
-            { answerText: "hören", isCorrect: true },
-            { answerText: "sehen", isCorrect: false },
-            { answerText: "lesen", isCorrect: false },
-            { answerText: "essen", isCorrect: false },
-          ],
-        },
-        {
-          questionText: "What is 'to go' in German?",
-          type: "multiple-choice",
-          answerOptions: [
-            { answerText: "gehen", isCorrect: true },
-            { answerText: "kommen", isCorrect: false },
-            { answerText: "sehen", isCorrect: false },
-            { answerText: "essen", isCorrect: false },
-          ],
-        },
-        {
-            questionText: "What is 'to come' in German?",
-            type: "multiple-choice",
-            answerOptions: [
-              { answerText: "gehen", isCorrect: false },
-              { answerText: "kommen", isCorrect: true },
-              { answerText: "hören", isCorrect: false },
-              { answerText: "laufen", isCorrect: false },
-            ],
+        "questionText": "Was ist 'es' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "it", "isCorrect": true },
+            { "answerText": "he", "isCorrect": false },
+            { "answerText": "she", "isCorrect": false },
+            { "answerText": "we", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'wir' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "we", "isCorrect": true },
+            { "answerText": "you", "isCorrect": false },
+            { "answerText": "they", "isCorrect": false },
+            { "answerText": "I", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'ihr' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "you (plural, informal)", "isCorrect": true },
+            { "answerText": "we", "isCorrect": false },
+            { "answerText": "they", "isCorrect": false },
+            { "answerText": "he", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'Sie' (plural) auf Englisch?",
+        "answerOptions": [
+            { "answerText": "they", "isCorrect": true },
+            { "answerText": "we", "isCorrect": false },
+            { "answerText": "you", "isCorrect": false },
+            { "answerText": "he", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'Sie' (formal) auf Englisch?",
+        "answerOptions": [
+            { "answerText": "you (formal)", "isCorrect": true },
+            { "answerText": "he", "isCorrect": false },
+            { "answerText": "she", "isCorrect": false },
+            { "answerText": "we", "isCorrect": false }
+        ]
+    }
+];
+  
+  export const allQuestions2 =[
+          {
+              "questionText": "What is 'human' in German?",
+              "answerOptions": [
+                  { "answerText": "der Mensch", "isCorrect": true },
+                  { "answerText": "die Zeit", "isCorrect": false },
+                  { "answerText": "das Jahr", "isCorrect": false },
+                  { "answerText": "der Tag", "isCorrect": false }
+              ]
           },
           {
-            questionText: "What is 'to be' in German?",
-            type: "multiple-choice",
-            answerOptions: [
-              { answerText: "sein", isCorrect: true },
-              { answerText: "haben", isCorrect: false },
-              { answerText: "werden", isCorrect: false },
-              { answerText: "gehen", isCorrect: false },
-            ],
+              "questionText": "What is 'time' in German?",
+              "answerOptions": [
+                  { "answerText": "die Zeit", "isCorrect": true },
+                  { "answerText": "die Sache", "isCorrect": false },
+                  { "answerText": "der Weg", "isCorrect": false },
+                  { "answerText": "die Hand", "isCorrect": false }
+              ]
           },
           {
-            questionText: "What is 'to have' in German?",
-            type: "multiple-choice",
-            answerOptions: [
-              { answerText: "haben", isCorrect: true },
-              { answerText: "sehen", isCorrect: false },
-              { answerText: "sprechen", isCorrect: false },
-              { answerText: "gehen", isCorrect: false },
-            ],
+              "questionText": "What is 'year' in German?",
+              "answerOptions": [
+                  { "answerText": "das Jahr", "isCorrect": true },
+                  { "answerText": "der Freund", "isCorrect": false },
+                  { "answerText": "die Frau", "isCorrect": false },
+                  { "answerText": "das Kind", "isCorrect": false }
+              ]
           },
+          {
+              "questionText": "What is 'day' in German?",
+              "answerOptions": [
+                  { "answerText": "der Tag", "isCorrect": true },
+                  { "answerText": "die Stadt", "isCorrect": false },
+                  { "answerText": "das Haus", "isCorrect": false },
+                  { "answerText": "die Schule", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'thing' in German?",
+              "answerOptions": [
+                  { "answerText": "die Sache", "isCorrect": true },
+                  { "answerText": "der Lehrer", "isCorrect": false },
+                  { "answerText": "die Arbeit", "isCorrect": false },
+                  { "answerText": "das Buch", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'way' in German?",
+              "answerOptions": [
+                  { "answerText": "der Weg", "isCorrect": true },
+                  { "answerText": "die Familie", "isCorrect": false },
+                  { "answerText": "der Kopf", "isCorrect": false },
+                  { "answerText": "die Frage", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'hand' in German?",
+              "answerOptions": [
+                  { "answerText": "die Hand", "isCorrect": true },
+                  { "answerText": "die Antwort", "isCorrect": false },
+                  { "answerText": "der Platz", "isCorrect": false },
+                  { "answerText": "die Welt", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'hope' in German?",
+              "answerOptions": [
+                  { "answerText": "die Hoffnung", "isCorrect": true },
+                  { "answerText": "der Traum", "isCorrect": false },
+                  { "answerText": "die Freiheit", "isCorrect": false },
+                  { "answerText": "das Leben", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'friend' in German?",
+              "answerOptions": [
+                  { "answerText": "der Freund", "isCorrect": true },
+                  { "answerText": "die Frau", "isCorrect": false },
+                  { "answerText": "der Mann", "isCorrect": false },
+                  { "answerText": "das Kind", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'woman' in German?",
+              "answerOptions": [
+                  { "answerText": "die Frau", "isCorrect": true },
+                  { "answerText": "der Mann", "isCorrect": false },
+                  { "answerText": "das Kind", "isCorrect": false },
+                  { "answerText": "die Stadt", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'man' in German?",
+              "answerOptions": [
+                  { "answerText": "der Mann", "isCorrect": true },
+                  { "answerText": "das Kind", "isCorrect": false },
+                  { "answerText": "die Schule", "isCorrect": false },
+                  { "answerText": "die Arbeit", "isCorrect": false }
+              ]
+          },
+      ];
+      export const allQuestions3 = [
+          {
+              "questionText": "What is 'child' in German?",
+              "answerOptions": [
+                  { "answerText": "das Kind", "isCorrect": true },
+                  { "answerText": "die Familie", "isCorrect": false },
+                  { "answerText": "der Kopf", "isCorrect": false },
+                  { "answerText": "die Frage", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'dream' in German?",
+              "answerOptions": [
+                  { "answerText": "der Traum", "isCorrect": true },
+                  { "answerText": "die Frage", "isCorrect": false },
+                  { "answerText": "das Jahr", "isCorrect": false },
+                  { "answerText": "die Zeit", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'city' in German?",
+              "answerOptions": [
+                  { "answerText": "die Stadt", "isCorrect": true },
+                  { "answerText": "das Haus", "isCorrect": false },
+                  { "answerText": "die Schule", "isCorrect": false },
+                  { "answerText": "der Lehrer", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'house' in German?",
+              "answerOptions": [
+                  { "answerText": "das Haus", "isCorrect": true },
+                  { "answerText": "die Familie", "isCorrect": false },
+                  { "answerText": "der Freund", "isCorrect": false },
+                  { "answerText": "die Zeit", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'school' in German?",
+              "answerOptions": [
+                  { "answerText": "die Schule", "isCorrect": true },
+                  { "answerText": "der Lehrer", "isCorrect": false },
+                  { "answerText": "die Arbeit", "isCorrect": false },
+                  { "answerText": "das Buch", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'teacher' in German?",
+              "answerOptions": [
+                  { "answerText": "der Lehrer", "isCorrect": true },
+                  { "answerText": "die Familie", "isCorrect": false },
+                  { "answerText": "die Frage", "isCorrect": false },
+                  { "answerText": "der Platz", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'work' in German?",
+              "answerOptions": [
+                  { "answerText": "die Arbeit", "isCorrect": true },
+                  { "answerText": "das Buch", "isCorrect": false },
+                  { "answerText": "die Zeit", "isCorrect": false },
+                  { "answerText": "der Weg", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'book' in German?",
+              "answerOptions": [
+                  { "answerText": "das Buch", "isCorrect": true },
+                  { "answerText": "die Familie", "isCorrect": false },
+                  { "answerText": "der Kopf", "isCorrect": false },
+                  { "answerText": "die Frage", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'family' in German?",
+              "answerOptions": [
+                  { "answerText": "die Familie", "isCorrect": true },
+                  { "answerText": "der Freund", "isCorrect": false },
+                  { "answerText": "die Stadt", "isCorrect": false },
+                  { "answerText": "das Jahr", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'head' in German?",
+              "answerOptions": [
+                  { "answerText": "der Kopf", "isCorrect": true },
+                  { "answerText": "die Hand", "isCorrect": false },
+                  { "answerText": "die Stimme", "isCorrect": false },
+                  { "answerText": "der Platz", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'question' in German?",
+              "answerOptions": [
+                  { "answerText": "die Frage", "isCorrect": true },
+                  { "answerText": "die Antwort", "isCorrect": false },
+                  { "answerText": "die Zeit", "isCorrect": false },
+                  { "answerText": "das Leben", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'answer' in German?",
+              "answerOptions": [
+                  { "answerText": "die Antwort", "isCorrect": true },
+                  { "answerText": "die Frage", "isCorrect": false },
+                  { "answerText": "der Weg", "isCorrect": false },
+                  { "answerText": "die Stimme", "isCorrect": false }
+              ]
+          },
+      ]
+      export const allQuestions4 = [
+  
+          {
+              "questionText": "What is 'place' in German?",
+              "answerOptions": [
+                  { "answerText": "der Platz", "isCorrect": true },
+                  { "answerText": "die Welt", "isCorrect": false },
+                  { "answerText": "das Jahr", "isCorrect": false },
+                  { "answerText": "die Freiheit", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'world' in German?",
+              "answerOptions": [
+                  { "answerText": "die Welt", "isCorrect": true },
+                  { "answerText": "das Leben", "isCorrect": false },
+                  { "answerText": "die Zeit", "isCorrect": false },
+                  { "answerText": "der Freund", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'life' in German?",
+              "answerOptions": [
+                  { "answerText": "das Leben", "isCorrect": true },
+                  { "answerText": "die Liebe", "isCorrect": false },
+                  { "answerText": "der Platz", "isCorrect": false },
+                  { "answerText": "die Frage", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'love' in German?",
+              "answerOptions": [
+                  { "answerText": "die Liebe", "isCorrect": true },
+                  { "answerText": "das Jahr", "isCorrect": false },
+                  { "answerText": "der Kopf", "isCorrect": false },
+                  { "answerText": "die Stimme", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'voice' in German?",
+              "answerOptions": [
+                  { "answerText": "die Stimme", "isCorrect": true },
+                  { "answerText": "der Weg", "isCorrect": false },
+                  { "answerText": "die Frage", "isCorrect": false },
+                  { "answerText": "das Buch", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'body' in German?",
+              "answerOptions": [
+                  { "answerText": "der Körper", "isCorrect": true },
+                  { "answerText": "die Freiheit", "isCorrect": false },
+                  { "answerText": "die Zeit", "isCorrect": false },
+                  { "answerText": "das Geld", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'success' in German?",
+              "answerOptions": [
+                  { "answerText": "der Erfolg", "isCorrect": true },
+                  { "answerText": "die Hoffnung", "isCorrect": false },
+                  { "answerText": "das Jahr", "isCorrect": false },
+                  { "answerText": "die Frage", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'idea' in German?",
+              "answerOptions": [
+                  { "answerText": "die Idee", "isCorrect": true },
+                  { "answerText": "der Freund", "isCorrect": false },
+                  { "answerText": "die Frage", "isCorrect": false },
+                  { "answerText": "das Jahr", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'water' in German?",
+              "answerOptions": [
+                  { "answerText": "das Wasser", "isCorrect": true },
+                  { "answerText": "die Freiheit", "isCorrect": false },
+                  { "answerText": "der Platz", "isCorrect": false },
+                  { "answerText": "die Zeit", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'health' in German?",
+              "answerOptions": [
+                  { "answerText": "die Gesundheit", "isCorrect": true },
+                  { "answerText": "das Leben", "isCorrect": false },
+                  { "answerText": "die Liebe", "isCorrect": false },
+                  { "answerText": "der Kopf", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'freedom' in German?",
+              "answerOptions": [
+                  { "answerText": "die Freiheit", "isCorrect": true },
+                  { "answerText": "das Geld", "isCorrect": false },
+                  { "answerText": "die Frage", "isCorrect": false },
+                  { "answerText": "der Weg", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'money' in German?",
+              "answerOptions": [
+                  { "answerText": "das Geld", "isCorrect": true },
+                  { "answerText": "die Zeit", "isCorrect": false },
+                  { "answerText": "der Platz", "isCorrect": false },
+                  { "answerText": "die Stimme", "isCorrect": false }
+              ]
+          },
+      ]
+      export const allQuestions5 = [
+          {
+              "questionText": "What is 'language' in German?",
+              "answerOptions": [
+                  { "answerText": "die Sprache", "isCorrect": true },
+                  { "answerText": "das Jahr", "isCorrect": false },
+                  { "answerText": "der Freund", "isCorrect": false },
+                  { "answerText": "die Frage", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'market' in German?",
+              "answerOptions": [
+                  { "answerText": "der Markt", "isCorrect": true },
+                  { "answerText": "die Stadt", "isCorrect": false },
+                  { "answerText": "das Jahr", "isCorrect": false },
+                  { "answerText": "die Freiheit", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'journey' in German?",
+              "answerOptions": [
+                  { "answerText": "die Reise", "isCorrect": true },
+                  { "answerText": "der Weg", "isCorrect": false },
+                  { "answerText": "das Leben", "isCorrect": false },
+                  { "answerText": "die Frage", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'summer' in German?",
+              "answerOptions": [
+                  { "answerText": "der Sommer", "isCorrect": true },
+                  { "answerText": "der Winter", "isCorrect": false },
+                  { "answerText": "die Zeit", "isCorrect": false },
+                  { "answerText": "die Freiheit", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'winter' in German?",
+              "answerOptions": [
+                  { "answerText": "der Winter", "isCorrect": true },
+                  { "answerText": "der Sommer", "isCorrect": false },
+                  { "answerText": "die Frage", "isCorrect": false },
+                  { "answerText": "das Jahr", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'music' in German?",
+              "answerOptions": [
+                  { "answerText": "die Musik", "isCorrect": true },
+                  { "answerText": "der Film", "isCorrect": false },
+                  { "answerText": "die Kunst", "isCorrect": false },
+                  { "answerText": "der Sport", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'film' in German?",
+              "answerOptions": [
+                  { "answerText": "der Film", "isCorrect": true },
+                  { "answerText": "die Musik", "isCorrect": false },
+                  { "answerText": "die Kunst", "isCorrect": false },
+                  { "answerText": "der Sport", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'art' in German?",
+              "answerOptions": [
+                  { "answerText": "die Kunst", "isCorrect": true },
+                  { "answerText": "der Sport", "isCorrect": false },
+                  { "answerText": "die Freiheit", "isCorrect": false },
+                  { "answerText": "das Leben", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'sport' in German?",
+              "answerOptions": [
+                  { "answerText": "der Sport", "isCorrect": true },
+                  { "answerText": "die Musik", "isCorrect": false },
+                  { "answerText": "der Film", "isCorrect": false },
+                  { "answerText": "die Kunst", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'nature' in German?",
+              "answerOptions": [
+                  { "answerText": "die Natur", "isCorrect": true },
+                  { "answerText": "das Wasser", "isCorrect": false },
+                  { "answerText": "die Freiheit", "isCorrect": false },
+                  { "answerText": "der Platz", "isCorrect": false }
+              ]
+          },
+          {
+              "questionText": "What is 'computer' in German?",
+              "answerOptions": [
+                  { "answerText": "der Computer", "isCorrect": true },
+                  { "answerText": "die Technik", "isCorrect": false },
+                  { "answerText": "das Jahr", "isCorrect": false },
+                  { "answerText": "die Frage", "isCorrect": false }
+              ]
+          },
+      
+          {
+              "questionText": "What is 'technology' in German?",
+              "answerOptions": [
+                  { "answerText": "die Technik", "isCorrect": true },
+                  { "answerText": "der Computer", "isCorrect": false },
+                  { "answerText": "die Freiheit", "isCorrect": false },
+                  { "answerText": "das Leben", "isCorrect": false }
+              ]
+          },
+          
+      
+      
+      ];
+      export const allQuestions6 = [
+        
+            {
+                "questionText": "What article is 'Mensch'?",
+                "answerOptions": [
+                    { "answerText": "der", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Zeit'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Jahr'?",
+                "answerOptions": [
+                    { "answerText": "das", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "der", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Tag'?",
+                "answerOptions": [
+                    { "answerText": "der", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Sache'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Weg'?",
+                "answerOptions": [
+                    { "answerText": "der", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Hand'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Freund'?",
+                "answerOptions": [
+                    { "answerText": "der", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Frau'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Mann'?",
+                "answerOptions": [
+                    { "answerText": "der", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Kind'?",
+                "answerOptions": [
+                    { "answerText": "das", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "der", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Stadt'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+        ];
+        export const allQuestions7 = [
+          
+            {
+                "questionText": "What article is 'Haus'?",
+                "answerOptions": [
+                    { "answerText": "das", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "der", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Schule'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Lehrer'?",
+                "answerOptions": [
+                    { "answerText": "der", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Arbeit'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Buch'?",
+                "answerOptions": [
+                    { "answerText": "das", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "der", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Familie'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Kopf'?",
+                "answerOptions": [
+                    { "answerText": "der", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Frage'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Antwort'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Platz'?",
+                "answerOptions": [
+                    { "answerText": "der", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Welt'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+        ];
+        export const allQuestions8 = [
+            {
+                "questionText": "What article is 'Leben'?",
+                "answerOptions": [
+                    { "answerText": "das", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "der", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Liebe'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Stimme'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Körper'?",
+                "answerOptions": [
+                    { "answerText": "der", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Idee'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Wasser'?",
+                "answerOptions": [
+                    { "answerText": "das", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "der", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Gesundheit'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Freiheit'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Geld'?",
+                "answerOptions": [
+                    { "answerText": "das", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "der", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Sprache'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Markt'?",
+                "answerOptions": [
+                    { "answerText": "der", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+        ];
+        export const allQuestions9 = [
+          
+            {
+                "questionText": "What article is 'Reise'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Sommer'?",
+                "answerOptions": [
+                    { "answerText": "der", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Winter'?",
+                "answerOptions": [
+                    { "answerText": "der", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Musik'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Film'?",
+                "answerOptions": [
+                    { "answerText": "der", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Kunst'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Sport'?",
+                "answerOptions": [
+                    { "answerText": "der", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Natur'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Computer'?",
+                "answerOptions": [
+                    { "answerText": "der", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Technik'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Erfolg'?",
+                "answerOptions": [
+                    { "answerText": "der", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Hoffnung'?",
+                "answerOptions": [
+                    { "answerText": "die", "isCorrect": true },
+                    { "answerText": "der", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            },
+            {
+                "questionText": "What article is 'Traum'?",
+                "answerOptions": [
+                    { "answerText": "der", "isCorrect": true },
+                    { "answerText": "die", "isCorrect": false },
+                    { "answerText": "das", "isCorrect": false }
+                ]
+            }
+        
+             
+    
+    ];
+  export const allQuestions10 = 
+  [
+    {
+        "questionText": "Was ist 'Mensch' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "human", "isCorrect": true },
+            { "answerText": "time", "isCorrect": false },
+            { "answerText": "year", "isCorrect": false },
+            { "answerText": "day", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'Zeit' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "time", "isCorrect": true },
+            { "answerText": "thing", "isCorrect": false },
+            { "answerText": "way", "isCorrect": false },
+            { "answerText": "hand", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'Jahr' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "year", "isCorrect": true },
+            { "answerText": "friend", "isCorrect": false },
+            { "answerText": "woman", "isCorrect": false },
+            { "answerText": "man", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'Tag' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "day", "isCorrect": true },
+            { "answerText": "city", "isCorrect": false },
+            { "answerText": "house", "isCorrect": false },
+            { "answerText": "school", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'Sache' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "thing", "isCorrect": true },
+            { "answerText": "family", "isCorrect": false },
+            { "answerText": "head", "isCorrect": false },
+            { "answerText": "question", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'Weg' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "way", "isCorrect": true },
+            { "answerText": "hand", "isCorrect": false },
+            { "answerText": "friend", "isCorrect": false },
+            { "answerText": "woman", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'Freund' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "friend", "isCorrect": true },
+            { "answerText": "child", "isCorrect": false },
+            { "answerText": "teacher", "isCorrect": false },
+            { "answerText": "work", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'Frau' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "woman", "isCorrect": true },
+            { "answerText": "man", "isCorrect": false },
+            { "answerText": "child", "isCorrect": false },
+            { "answerText": "city", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'Kind' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "child", "isCorrect": true },
+            { "answerText": "family", "isCorrect": false },
+            { "answerText": "head", "isCorrect": false },
+            { "answerText": "question", "isCorrect": false }
+        ]
+    },
 ];
-
-
-export const allQuestions8 = [
-  {
-    questionText: "What does 'Ich (essen) (der) Apfel' mean?",
-    type: "multiple-choice",
-    answerOptions: [
-      { answerText: "I eat the apple", isCorrect: true },
-      { answerText: "They eat the apple", isCorrect: false },
-      { answerText: "She eats the apple juice", isCorrect: false },
-      { answerText: "I drink the apple juice", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "What does 'Er (trinken) (das) Wasser' mean?",
-    type: "multiple-choice",
-    answerOptions: [
-      { answerText: "He drinks the water", isCorrect: true },
-      { answerText: "She drinks the water", isCorrect: false },
-      { answerText: "I drink the water", isCorrect: false },
-      { answerText: "They drink the water", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "What does 'Wir (laufen) (im) Park' mean?",
-    type: "multiple-choice",
-    answerOptions: [
-      { answerText: "We run in the park", isCorrect: true },
-      { answerText: "They run in the park", isCorrect: false },
-      { answerText: "You walk in the park", isCorrect: false },
-      { answerText: "I walk in the park", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "What does 'Sie (hören) (die) Musik' mean?",
-    type: "multiple-choice",
-    answerOptions: [
-      { answerText: "They listen to the music", isCorrect: true },
-      { answerText: "We hears to the music", isCorrect: false },
-      { answerText: "She hears to the sound", isCorrect: false },
-      { answerText: "I listen to the sound", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "What does 'Du (haben) (das) Auto' mean?",
-    type: "multiple-choice",
-    answerOptions: [
-      { answerText: "You have the car", isCorrect: true },
-      { answerText: "She has the truck", isCorrect: false },
-      { answerText: "I own the car", isCorrect: false },
-      { answerText: "We bought the truck", isCorrect: false },
-    ],
-  },
+    export const allQuestions11 =[
+    {
+        "questionText": "Was ist 'Stadt' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "city", "isCorrect": true },
+            { "answerText": "house", "isCorrect": false },
+            { "answerText": "school", "isCorrect": false },
+            { "answerText": "friend", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'Haus' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "house", "isCorrect": true },
+            { "answerText": "book", "isCorrect": false },
+            { "answerText": "family", "isCorrect": false },
+            { "answerText": "time", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'Buch' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "book", "isCorrect": true },
+            { "answerText": "work", "isCorrect": false },
+            { "answerText": "friend", "isCorrect": false },
+            { "answerText": "city", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'Arbeit' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "work", "isCorrect": true },
+            { "answerText": "time", "isCorrect": false },
+            { "answerText": "thing", "isCorrect": false },
+            { "answerText": "way", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'Kopf' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "head", "isCorrect": true },
+            { "answerText": "hand", "isCorrect": false },
+            { "answerText": "body", "isCorrect": false },
+            { "answerText": "friend", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'Frage' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "question", "isCorrect": true },
+            { "answerText": "answer", "isCorrect": false },
+            { "answerText": "time", "isCorrect": false },
+            { "answerText": "place", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'Antwort' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "answer", "isCorrect": true },
+            { "answerText": "question", "isCorrect": false },
+            { "answerText": "friend", "isCorrect": false },
+            { "answerText": "city", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Was ist 'Welt' auf Englisch?",
+        "answerOptions": [
+            { "answerText": "world", "isCorrect": true },
+            { "answerText": "life", "isCorrect": false },
+            { "answerText": "time", "isCorrect": false },
+            { "answerText": "place", "isCorrect": false }
+        ]
+    }
 ];
-
-
