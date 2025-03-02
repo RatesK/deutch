@@ -1,7 +1,6 @@
 export const allQuestions1 = [
   {
       "questionText": "What is 'man' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Mann", "isCorrect": true },
           { "answerText": "Die Frau", "isCorrect": false },
@@ -11,7 +10,6 @@ export const allQuestions1 = [
   },
   {
       "questionText": "What is 'woman' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Frau", "isCorrect": true },
           { "answerText": "Der Mann", "isCorrect": false },
@@ -21,7 +19,6 @@ export const allQuestions1 = [
   },
   {
       "questionText": "What is 'child' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Das Kind", "isCorrect": true },
           { "answerText": "Der Mann", "isCorrect": false },
@@ -31,7 +28,6 @@ export const allQuestions1 = [
   },
   {
       "questionText": "What is 'family' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Familie", "isCorrect": true },
           { "answerText": "Der Mann", "isCorrect": false },
@@ -41,7 +37,6 @@ export const allQuestions1 = [
   },
   {
       "questionText": "What is 'father' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Vater", "isCorrect": true },
           { "answerText": "Die Mutter", "isCorrect": false },
@@ -51,7 +46,6 @@ export const allQuestions1 = [
   },
   {
       "questionText": "What is 'mother' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Mutter", "isCorrect": true },
           { "answerText": "Der Vater", "isCorrect": false },
@@ -61,7 +55,6 @@ export const allQuestions1 = [
   },
   {
       "questionText": "What is 'friend (male)' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Freund", "isCorrect": true },
           { "answerText": "Die Freundin", "isCorrect": false },
@@ -71,7 +64,6 @@ export const allQuestions1 = [
   },
   {
       "questionText": "What is 'friend (female)' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Freundin", "isCorrect": true },
           { "answerText": "Der Freund", "isCorrect": false },
@@ -81,7 +73,6 @@ export const allQuestions1 = [
   },
   {
       "questionText": "What is 'house' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Das Haus", "isCorrect": true },
           { "answerText": "Die Tür", "isCorrect": false },
@@ -91,7 +82,6 @@ export const allQuestions1 = [
   },
   {
       "questionText": "What is 'door' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Tür", "isCorrect": true },
           { "answerText": "Das Haus", "isCorrect": false },
@@ -101,7 +91,6 @@ export const allQuestions1 = [
   },
   {
       "questionText": "What is 'window' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Das Fenster", "isCorrect": true },
           { "answerText": "Das Haus", "isCorrect": false },
@@ -111,7 +100,6 @@ export const allQuestions1 = [
   },
   {
       "questionText": "What is 'table' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Tisch", "isCorrect": true },
           { "answerText": "Der Stuhl", "isCorrect": false },
@@ -121,7 +109,6 @@ export const allQuestions1 = [
   },
   {
       "questionText": "What is 'chair' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Stuhl", "isCorrect": true },
           { "answerText": "Der Tisch", "isCorrect": false },
@@ -131,7 +118,6 @@ export const allQuestions1 = [
   },
   {
       "questionText": "What is 'food' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Das Essen", "isCorrect": true },
           { "answerText": "Der Tisch", "isCorrect": false },
@@ -141,7 +127,6 @@ export const allQuestions1 = [
   },
   {
       "questionText": "What is 'water' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Das Wasser", "isCorrect": true },
           { "answerText": "Der Tisch", "isCorrect": false },
@@ -153,7 +138,6 @@ export const allQuestions1 = [
 export const allQuestions2 = [
   {
       "questionText": "What is 'car' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Das Auto", "isCorrect": true },
           { "answerText": "Das Fahrrad", "isCorrect": false },
@@ -163,7 +147,6 @@ export const allQuestions2 = [
   },
   {
       "questionText": "What is 'bicycle' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Das Fahrrad", "isCorrect": true },
           { "answerText": "Das Auto", "isCorrect": false },
@@ -173,7 +156,6 @@ export const allQuestions2 = [
   },
   {
       "questionText": "What is 'bus' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Bus", "isCorrect": true },
           { "answerText": "Das Auto", "isCorrect": false },
@@ -183,7 +165,6 @@ export const allQuestions2 = [
   },
   {
       "questionText": "What is 'train' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Zug", "isCorrect": true },
           { "answerText": "Der Bus", "isCorrect": false },
@@ -193,7 +174,6 @@ export const allQuestions2 = [
   },
   {
       "questionText": "What is 'street' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Straße", "isCorrect": true },
           { "answerText": "Der Weg", "isCorrect": false },
@@ -203,7 +183,6 @@ export const allQuestions2 = [
   },
   {
       "questionText": "What is 'city' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Stadt", "isCorrect": true },
           { "answerText": "Das Land", "isCorrect": false },
@@ -213,7 +192,6 @@ export const allQuestions2 = [
   },
   {
       "questionText": "What is 'country' (nation) in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Das Land", "isCorrect": true },
           { "answerText": "Die Stadt", "isCorrect": false },
@@ -223,7 +201,6 @@ export const allQuestions2 = [
   },
   {
       "questionText": "What is 'river' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Fluss", "isCorrect": true },
           { "answerText": "Das Meer", "isCorrect": false },
@@ -233,7 +210,6 @@ export const allQuestions2 = [
   },
   {
       "questionText": "What is 'sea' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Das Meer", "isCorrect": true },
           { "answerText": "Der Fluss", "isCorrect": false },
@@ -243,7 +219,6 @@ export const allQuestions2 = [
   },
   {
       "questionText": "What is 'lake' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der See", "isCorrect": true },
           { "answerText": "Das Meer", "isCorrect": false },
@@ -253,7 +228,6 @@ export const allQuestions2 = [
   },
   {
       "questionText": "What is 'bridge' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Brücke", "isCorrect": true },
           { "answerText": "Der Fluss", "isCorrect": false },
@@ -263,7 +237,6 @@ export const allQuestions2 = [
   },
   {
       "questionText": "What is 'mountain' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Berg", "isCorrect": true },
           { "answerText": "Das Tal", "isCorrect": false },
@@ -273,7 +246,6 @@ export const allQuestions2 = [
   },
   {
       "questionText": "What is 'valley' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Das Tal", "isCorrect": true },
           { "answerText": "Der Berg", "isCorrect": false },
@@ -283,7 +255,6 @@ export const allQuestions2 = [
   },
   {
       "questionText": "What is 'sky' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Himmel", "isCorrect": true },
           { "answerText": "Die Wolke", "isCorrect": false },
@@ -293,7 +264,6 @@ export const allQuestions2 = [
   },
   {
       "questionText": "What is 'cloud' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Wolke", "isCorrect": true },
           { "answerText": "Der Himmel", "isCorrect": false },
@@ -305,7 +275,6 @@ export const allQuestions2 = [
 export const allQuestions3 = [
   {
       "questionText": "What is 'sun' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Sonne", "isCorrect": true },
           { "answerText": "Der Mond", "isCorrect": false },
@@ -315,7 +284,6 @@ export const allQuestions3 = [
   },
   {
       "questionText": "What is 'moon' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Mond", "isCorrect": true },
           { "answerText": "Die Sonne", "isCorrect": false },
@@ -325,7 +293,6 @@ export const allQuestions3 = [
   },
   {
       "questionText": "What is 'star' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Stern", "isCorrect": true },
           { "answerText": "Der Mond", "isCorrect": false },
@@ -335,7 +302,6 @@ export const allQuestions3 = [
   },
   {
       "questionText": "What is 'rain' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Regen", "isCorrect": true },
           { "answerText": "Der Schnee", "isCorrect": false },
@@ -345,7 +311,6 @@ export const allQuestions3 = [
   },
   {
       "questionText": "What is 'snow' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Schnee", "isCorrect": true },
           { "answerText": "Der Regen", "isCorrect": false },
@@ -355,7 +320,6 @@ export const allQuestions3 = [
   },
   {
       "questionText": "What is 'storm' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Sturm", "isCorrect": true },
           { "answerText": "Der Regen", "isCorrect": false },
@@ -365,7 +329,6 @@ export const allQuestions3 = [
   },
   {
       "questionText": "What is 'thunder' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Donner", "isCorrect": true },
           { "answerText": "Der Blitz", "isCorrect": false },
@@ -375,7 +338,6 @@ export const allQuestions3 = [
   },
   {
       "questionText": "What is 'lightning' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Blitz", "isCorrect": true },
           { "answerText": "Der Donner", "isCorrect": false },
@@ -385,7 +347,6 @@ export const allQuestions3 = [
   },
   {
       "questionText": "What is 'wind' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Wind", "isCorrect": true },
           { "answerText": "Der Regen", "isCorrect": false },
@@ -395,7 +356,6 @@ export const allQuestions3 = [
   },
   {
       "questionText": "What is 'fog' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Nebel", "isCorrect": true },
           { "answerText": "Die Wolke", "isCorrect": false },
@@ -407,7 +367,6 @@ export const allQuestions3 = [
 export const allQuestions4 = [
   {
       "questionText": "What is 'apple' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Apfel", "isCorrect": true },
           { "answerText": "Die Birne", "isCorrect": false },
@@ -417,7 +376,6 @@ export const allQuestions4 = [
   },
   {
       "questionText": "What is 'banana' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Banane", "isCorrect": true },
           { "answerText": "Der Apfel", "isCorrect": false },
@@ -427,7 +385,6 @@ export const allQuestions4 = [
   },
   {
       "questionText": "What is 'pear' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Birne", "isCorrect": true },
           { "answerText": "Der Apfel", "isCorrect": false },
@@ -437,7 +394,6 @@ export const allQuestions4 = [
   },
   {
       "questionText": "What is 'grape' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Traube", "isCorrect": true },
           { "answerText": "Der Apfel", "isCorrect": false },
@@ -447,7 +403,6 @@ export const allQuestions4 = [
   },
   {
       "questionText": "What is 'strawberry' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Erdbeere", "isCorrect": true },
           { "answerText": "Die Kirsche", "isCorrect": false },
@@ -457,7 +412,6 @@ export const allQuestions4 = [
   },
   {
       "questionText": "What is 'cherry' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Kirsche", "isCorrect": true },
           { "answerText": "Die Erdbeere", "isCorrect": false },
@@ -467,7 +421,6 @@ export const allQuestions4 = [
   },
   {
       "questionText": "What is 'raspberry' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Himbeere", "isCorrect": true },
           { "answerText": "Die Kirsche", "isCorrect": false },
@@ -479,7 +432,6 @@ export const allQuestions4 = [
 export const allQuestions5 = [
   {
       "questionText": "What is 'dog' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Hund", "isCorrect": true },
           { "answerText": "Die Katze", "isCorrect": false },
@@ -489,7 +441,6 @@ export const allQuestions5 = [
   },
   {
       "questionText": "What is 'cat' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Katze", "isCorrect": true },
           { "answerText": "Der Hund", "isCorrect": false },
@@ -499,7 +450,6 @@ export const allQuestions5 = [
   },
   {
       "questionText": "What is 'horse' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Das Pferd", "isCorrect": true },
           { "answerText": "Der Hund", "isCorrect": false },
@@ -509,7 +459,6 @@ export const allQuestions5 = [
   },
   {
       "questionText": "What is 'bird' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Vogel", "isCorrect": true },
           { "answerText": "Der Fisch", "isCorrect": false },
@@ -519,7 +468,6 @@ export const allQuestions5 = [
   },
   {
       "questionText": "What is 'fish' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Fisch", "isCorrect": true },
           { "answerText": "Der Vogel", "isCorrect": false },
@@ -529,7 +477,6 @@ export const allQuestions5 = [
   },
   {
       "questionText": "What is 'cow' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Kuh", "isCorrect": true },
           { "answerText": "Das Schwein", "isCorrect": false },
@@ -539,7 +486,6 @@ export const allQuestions5 = [
   },
   {
       "questionText": "What is 'pig' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Das Schwein", "isCorrect": true },
           { "answerText": "Die Kuh", "isCorrect": false },
@@ -549,7 +495,6 @@ export const allQuestions5 = [
   },
   {
       "questionText": "What is 'sheep' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Das Schaf", "isCorrect": true },
           { "answerText": "Das Schwein", "isCorrect": false },
@@ -559,7 +504,6 @@ export const allQuestions5 = [
   },
   {
       "questionText": "What is 'goat' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Ziege", "isCorrect": true },
           { "answerText": "Das Schaf", "isCorrect": false },
@@ -569,7 +513,6 @@ export const allQuestions5 = [
   },
   {
       "questionText": "What is 'mouse' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Maus", "isCorrect": true },
           { "answerText": "Die Ratte", "isCorrect": false },
@@ -579,7 +522,6 @@ export const allQuestions5 = [
   },
   {
       "questionText": "What is 'rabbit' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Hase", "isCorrect": true },
           { "answerText": "Die Maus", "isCorrect": false },
@@ -589,7 +531,6 @@ export const allQuestions5 = [
   },
   {
       "questionText": "What is 'turtle' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Schildkröte", "isCorrect": true },
           { "answerText": "Der Frosch", "isCorrect": false },
@@ -599,7 +540,6 @@ export const allQuestions5 = [
   },
   {
       "questionText": "What is 'frog' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Der Frosch", "isCorrect": true },
           { "answerText": "Die Schlange", "isCorrect": false },
@@ -609,7 +549,6 @@ export const allQuestions5 = [
   },
   {
       "questionText": "What is 'snake' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Schlange", "isCorrect": true },
           { "answerText": "Der Frosch", "isCorrect": false },
@@ -619,7 +558,6 @@ export const allQuestions5 = [
   },
   {
       "questionText": "What is 'duck' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Die Ente", "isCorrect": true },
           { "answerText": "Die Gans", "isCorrect": false },
@@ -632,7 +570,6 @@ export const allQuestions5 = [
 export const allQuestions6 = [
   {
       "questionText": "What is 'I' in German?",
-      "type": "multiple-choice",
       "answerOptions": [
           { "answerText": "Ich", "isCorrect": true },
           { "answerText": "Du", "isCorrect": false },

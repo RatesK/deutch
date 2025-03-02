@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-blue-100 text-center px-6">
-      <h1 className="text-5xl font-bold text-blue-800 mb-6">Welcome Deutch (Learn or Else :3)</h1>
-      <p className="text-xl text-gray-700 mb-6">Section 1:</p>
+    <div className="min-h-screen flex flex-col items-center justify-center bg-blue-100 text-center px-6 pb-6">
+      <h1 className="text-5xl font-bold text-blue-800 my-8">Deutch (Learn or Else :3)</h1>
+      <p className="text-xl text-black mb-6">Section 1:</p>
       
       <div className="grid grid-cols-2 gap-6">
         <Link to="/1">
