@@ -71,22 +71,18 @@ function HomePage() {
 
         <section className="mt-12 text-center">
           <h2 className="text-2xl md:text-3xl text-blue-700 font-semibold mb-4">Section 2: Coming Soon</h2>
-          <p className="text-lg text-gray-700">More exciting lessons are on their way!</p>
+          <p className="text-lg text-gray-700">:3</p>
         </section>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mt-6 max-w-4xl w-full">
           <Link to="/" className="w-full">
             <button className="w-full bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-              More Content Coming Soon
+              Coming Soon
             </button>
           </Link>
         </div>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-blue-800 text-white text-center py-4">
-        <p>&copy; 2024 Deutch. All rights reserved.</p>
-      </footer>
     </div>
   );
 }
