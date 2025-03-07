@@ -1,9 +1,12 @@
-import React, { useState, useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
+import React, { useState, useEffect, useMemo } from "react";
+import { useParams, Link, useLocation } from "react-router-dom";
 import * as questions from "./data.js";
 
 function Mono() {
   const { id } = useParams();
+  const location = useLocation();
+  const titleFromState = location.state?.quizTitle;
+  const quizTitle = titleFromState || `Deutsch: #${id}`;
   const questionsToUse = questions[`allQuestions${id}`] || [];
 
   const shuffleArray = (array) => {
@@ -14,6 +17,18 @@ function Mono() {
     }
     return shuffledArray;
   };
+
+  // Memoize questions processing to avoid re-processing on every render.
+  const processedQuestions = useMemo(() => {
+    if (questionsToUse.length === 0) return [];
+    const proc = questionsToUse.map((question) => {
+      const correct = { answerText: question.correctAnswer, isCorrect: true };
+      const incorrect = question.incorrectAnswers.map((answer) => ({ answerText: answer, isCorrect: false }));
+      const answerOptions = shuffleArray([correct, ...incorrect]);
+      return { ...question, answerOptions: answerOptions };
+    });
+    return shuffleArray(proc);
+  }, [questionsToUse]);
 
   const [questionsState, setQuestions] = useState([]);
   const [originalQuestions, setOriginalQuestions] = useState([]);
@@ -29,19 +44,9 @@ function Mono() {
   const progressPercentage = originalQuestions.length > 0 ? (score / originalQuestions.length) * 100 : 0;
 
   useEffect(() => {
-    if (questionsToUse.length > 0) {
-      const processedQuestions = questionsToUse.map((question) => {
-        const correct = { answerText: question.correctAnswer, isCorrect: true };
-        const incorrect = question.incorrectAnswers.map((answer) => ({ answerText: answer, isCorrect: false }));
-        const answerOptions = shuffleArray([correct, ...incorrect]);
-        return { ...question, answerOptions: answerOptions };
-      });
-
-      const shuffledQuestions = shuffleArray(processedQuestions);
-      setQuestions(shuffledQuestions);
-      setOriginalQuestions(shuffledQuestions);
-    }
-  }, [questionsToUse]);
+    setQuestions(processedQuestions);
+    setOriginalQuestions(processedQuestions);
+  }, [processedQuestions]);
 
   const handleAnswerClick = (option) => {
     if (userAnswered) return;
@@ -80,8 +85,11 @@ function Mono() {
 
   return (
     <div className="flex flex-col items-center h-screen bg-gradient-to-br from-blue-50 to-blue-100 p-4 md:p-6 relative font-poppins">
+      <Link to="/" className="absolute top-4 left-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+        Return Home
+      </Link>
       {/* Quiz Title */}
-      <h1 className="text-3xl md:text-4xl font-extrabold text-blue-800 mb-4 md:mb-6">Deutsch: #{id}</h1>
+      <h1 className="text-3xl md:text-4xl font-extrabold text-blue-800 mb-4 md:mb-6">{quizTitle}</h1>
 
       {/* Progress Bar */}
       <div className="w-full max-w-md bg-gray-200 rounded-full h-3 md:h-4 mb-4 md:mb-6">
@@ -97,7 +105,6 @@ function Mono() {
           <span className="font-semibold">{score}</span> / {originalQuestions.length}
         </p>
       </div>
-
       {/* Ensure questions are loaded before rendering */}
       {questionsState.length === 0 ? (
         <p className="text-center text-xl text-gray-700">Loading questions...</p>
@@ -105,9 +112,6 @@ function Mono() {
         <div className="text-center">
           <h3 className="text-2xl md:text-3xl font-semibold mb-3 md:mb-4 text-green-600">Quiz Completed!</h3>
           <p className="text-lg md:text-xl text-gray-700 mb-4 md:mb-6">Your final score is: <span className="font-bold text-green-600">{score} / {originalQuestions.length}</span></p>
-          <Link to="/" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-            Return Home
-          </Link>
         </div>
       ) : (
         <div className="flex flex-col items-center w-full max-w-md">

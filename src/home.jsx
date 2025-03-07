@@ -2,6 +2,30 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function HomePage() {
+  // Define quiz link details for Basics 1 and Basics 2
+  const basics1 = [
+    { to: "/1", quizTitle: "Pronouns 1", buttonClass: "bg-blue-400 hover:bg-blue-500" },
+    { to: "/2", quizTitle: "Nouns 1", buttonClass: "bg-green-400 hover:bg-green-500" },
+    { to: "/3", quizTitle: "Nouns 2", buttonClass: "bg-green-400 hover:bg-green-500" },
+    { to: "/4", quizTitle: "Nouns 3", buttonClass: "bg-green-400 hover:bg-green-500" },
+    { to: "/5", quizTitle: "Nouns 4", buttonClass: "bg-green-400 hover:bg-green-500" },
+    { to: "/6", quizTitle: "Grammar 1", buttonClass: "bg-purple-400 hover:bg-purple-500" },
+    { to: "/7", quizTitle: "Grammar 2", buttonClass: "bg-purple-400 hover:bg-purple-500" },
+    { to: "/8", quizTitle: "Grammar 3", buttonClass: "bg-purple-400 hover:bg-purple-500" },
+    { to: "/9", quizTitle: "Grammar 4", buttonClass: "bg-purple-400 hover:bg-purple-500" },
+    { to: "/10", quizTitle: "Substantive 1", buttonClass: "bg-yellow-400 hover:bg-yellow-500" },
+    { to: "/11", quizTitle: "Substantive 2", buttonClass: "bg-yellow-400 hover:bg-yellow-500" }
+  ];
+  const basics2 = [
+    { to: "/12", quizTitle: "Verbs 1", buttonClass: "bg-orange-400 hover:bg-orange-500" },
+    { to: "/13", quizTitle: "Verbs 2", buttonClass: "bg-orange-400 hover:bg-orange-500" },
+    { to: "/14", quizTitle: "Verbs 3", buttonClass: "bg-orange-400 hover:bg-orange-500" },
+    { to: "/15", quizTitle: "Adjectives 1", buttonClass: "bg-purple-600 hover:bg-purple-700" },
+    { to: "/16", quizTitle: "Adjectives 2", buttonClass: "bg-purple-600 hover:bg-purple-700" },
+    { to: "/17", quizTitle: "Grammar 1", buttonClass: "bg-purple-400 hover:bg-purple-500" },
+    { to: "/18", quizTitle: "Grammar 2", buttonClass: "bg-purple-400 hover:bg-purple-500" }
+  ];
+
   return (
     <div className="min-h-screen flex flex-col">
       {/* Header */}
@@ -18,55 +42,13 @@ function HomePage() {
         </section>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 gap-4 md:gap-6 max-w-4xl w-full">
-          <Link to="/1" className="w-full">
-            <button className="w-full bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-              Pronouns 1
-            </button>
-          </Link>
-          <Link to="/2" className="w-full">
-            <button className="w-full bg-green-400 hover:bg-green-500 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-              Nouns 1
-            </button>
-          </Link>
-          <Link to="/3" className="w-full">
-            <button className="w-full bg-green-400 hover:bg-green-500 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-            Nouns 2           </button>
-          </Link>
-          <Link to="/4" className="w-full">
-            <button className="w-full bg-green-400 hover:bg-green-500 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-            Nouns 3           </button>
-          </Link>
-          <Link to="/5" className="w-full">
-            <button className="w-full bg-green-400 hover:bg-green-500 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-            Nouns 4            </button>
-          </Link>
-          <Link to="/6" className="w-full">
-            <button className="w-full bg-purple-400 hover:bg-purple-500 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-              Grammar 1
-            </button>
-          </Link>
-          <Link to="/7" className="w-full">
-            <button className="w-full bg-purple-400 hover:bg-purple-500 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-            Grammar 2           </button>
-          </Link>
-          <Link to="/8" className="w-full">
-            <button className="w-full bg-purple-400 hover:bg-purple-500 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-            Grammar 3           </button>
-          </Link>
-          <Link to="/9" className="w-full">
-            <button className="w-full bg-purple-400 hover:bg-purple-500 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-            Grammar 4           </button>
-          </Link>
-          <Link to="/10" className="w-full">
-            <button className="w-full bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-              Substantive 1
-            </button>
-          </Link>
-          <Link to="/11" className="w-full">
-            <button className="w-full bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-              Substantive 2
-            </button>
-          </Link>
+          {basics1.map((quiz) => (
+            <Link key={quiz.to} to={quiz.to} state={{ quizTitle: quiz.quizTitle }} className="w-full">
+              <button className={`w-full ${quiz.buttonClass} text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base`}>
+                {quiz.quizTitle}
+              </button>
+            </Link>
+          ))}
         </div>
 
         <section className="mt-12 text-center">
@@ -75,35 +57,13 @@ function HomePage() {
         </section>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 gap-4 md:gap-6 max-w-4xl w-full">
-          <Link to="/12" className="w-full">
-            <button className="w-full bg-orange-400 hover:bg-orange-500 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-              Verbs 1
-            </button>
-          </Link>
-          <Link to="/13" className="w-full">
-            <button className="w-full bg-orange-400 hover:bg-orange-500 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-            Verbs 2           </button>
-          </Link>
-          <Link to="/14" className="w-full">
-            <button className="w-full bg-orange-400 hover:bg-orange-500 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-            Verbs 3           </button>
-          </Link>
-          <Link to="/15" className="w-full">
-            <button className="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-            Adjectives 1           </button>
-          </Link>
-          <Link to="/16" className="w-full">
-            <button className="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-            Adjectives 2          </button>
-          </Link>
-          <Link to="/17" className="w-full">
-            <button className="w-full bg-purple-400 hover:bg-purple-500 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-            Grammar 1           </button>
-          </Link>
-          <Link to="/18" className="w-full">
-            <button className="w-full bg-purple-400 hover:bg-purple-500 text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base">
-            Grammar 2          </button>
-          </Link>
+          {basics2.map((quiz) => (
+            <Link key={quiz.to} to={quiz.to} state={{ quizTitle: quiz.quizTitle }} className="w-full">
+              <button className={`w-full ${quiz.buttonClass} text-white font-bold py-2 md:py-3 px-3 md:px-4 rounded-xl transition-colors duration-300 text-sm md:text-base`}>
+                {quiz.quizTitle}
+              </button>
+            </Link>
+          ))}
         </div>
       </main>
 
