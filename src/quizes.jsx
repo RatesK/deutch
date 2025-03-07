@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import * as questions from "./file.js";
+import * as questions from "./data.js";
 
 function Mono() {
   const { id } = useParams();
@@ -13,11 +13,6 @@ function Mono() {
       [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
     }
     return shuffledArray;
-  };
-
-  const shuffleAnswerOptions = (question) => {
-    if (!question.answerOptions) return [];
-    return shuffleArray(question.answerOptions);
   };
 
   const [questionsState, setQuestions] = useState([]);
@@ -35,10 +30,14 @@ function Mono() {
 
   useEffect(() => {
     if (questionsToUse.length > 0) {
-      const shuffledQuestions = shuffleArray(questionsToUse).map((question) => ({
-        ...question,
-        answerOptions: shuffleAnswerOptions(question),
-      }));
+      const processedQuestions = questionsToUse.map((question) => {
+        const correct = { answerText: question.correctAnswer, isCorrect: true };
+        const incorrect = question.incorrectAnswers.map((answer) => ({ answerText: answer, isCorrect: false }));
+        const answerOptions = shuffleArray([correct, ...incorrect]);
+        return { ...question, answerOptions: answerOptions };
+      });
+
+      const shuffledQuestions = shuffleArray(processedQuestions);
       setQuestions(shuffledQuestions);
       setOriginalQuestions(shuffledQuestions);
     }
